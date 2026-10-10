@@ -1,9 +1,9 @@
 name: Tests
 
 on:
-#  push:
-#    branches: [main]
-#  pull_request:
+  push:
+    branches: [main]
+  pull_request:
   workflow_dispatch:
 
 concurrency:
@@ -17,6 +17,7 @@ jobs:
     steps:
       - uses: actions/checkout@v5
         with:
+          fetch-depth: '0'
           fetch-tags: 'true'
 
       - uses: actions/setup-python@v6

@@ -66,13 +66,13 @@ class TestNotebooks(unittest.TestCase):
     def test_grain_boundary_loading(self):
         self.run_notebook(
             "ex2-grain_boundary",
-            parameters={"cheap": True, "use_result": True, "write_result": False}
+            parameters={"cheap": False, "use_result": True, "write_result": False}
         )
 
     def test_phase_stability_loading(self):
         self.run_notebook(
             "ex3-phase_stability",
-            parameters={"cheap": True, "use_result": True, "write_result": False}
+            parameters={"cheap": False, "use_result": True, "write_result": False}
         )
 
 

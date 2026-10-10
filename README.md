@@ -1,5 +1,7 @@
 # Three ontologically-annotated atomistic workflows
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/pyiron-node-store/pmd03_demonstrators/HEAD)
+
 Here we present three physically-meaningful demonstration workflows. They are built on the foundation of the [`pyiron_workflow_atomistics` node library](https://github.com/pyiron/pyiron_workflow_atomistics), and use the [PMDco](https://w3id.org/pmd/co) for ontological annotation of inputs and outputs where available.
 
 ## Workflows
